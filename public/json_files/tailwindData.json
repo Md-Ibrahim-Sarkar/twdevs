@@ -1,0 +1,37 @@
+{
+  "footers": [
+            {
+              "id": 1,
+              "image": "/images/tailwind/footers/8.jpeg",
+              "link": "/components/tailwind/footers/footer-one",
+              "name": "name for the footer image",
+              "categoryName": "Footers"
+            },
+            {
+              "id": 2,
+              "image": "/images/tailwind/footers/8.jpeg",
+              "link": "/components/tailwind/headers/header-one",
+              "name": "name for the footer image",
+              "categoryName": "Headers"
+            }
+          ],
+  "headers": [
+
+            {
+              "id": 1,
+              "image": "/images/tailwind/footers/8.jpeg",
+              "link": "/components/tailwind/footers/footer-one",
+              "name": "name for the footer image",
+              "categoryName": "Footers"
+            },
+            {
+              "id": 1,
+              "image": "/images/tailwind/footers/8.jpeg",
+              "link": "/components/tailwind/footers/footer-one",
+              "name": "name for the footer image",
+              "categoryName": "Footers"
+            }
+
+          ]
+  
+}

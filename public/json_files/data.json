@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "image": "/a/1.jpg",
+      "link": "/components/footers",
+      "name": "Footers"
+    },
+    {
+      "id": 2,
+      "image": "/a/2.jpg",
+      "link": "/headers",
+      "name": "Headers"
+    },
+    {
+      "id": 3,
+      "image": "/a/3.jpg",
+      "link": "https://example.com/page3",
+      "name": "Hero Sections"
+    },
+    {
+      "id": 4,
+      "image": "/a/4.jpeg",
+      "link": "https://example.com/page4",
+      "name": "Cards"
+    }
+  ]
+  
