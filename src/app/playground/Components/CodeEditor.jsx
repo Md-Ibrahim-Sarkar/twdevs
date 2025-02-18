@@ -11,9 +11,6 @@ export default function CodeEditor({ code, setCode }) {
     />
   );
 }
-
-
-
 export const defaultComponent = `<header class='shadow-lg font-[sans-serif] tracking-wide relative z-50'>
       <section
         class='flex items-center relative py-3 lg:px-10 px-4 border-gray-200 border-b bg-white lg:min-h-[70px] max-lg:min-h-[60px]'>
