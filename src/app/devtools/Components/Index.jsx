@@ -62,7 +62,33 @@ function IndexDevTools() {
 
                     </div>
                 </Link>
+                <Link
+                    href={'/devtools/form-builder'}
+                    className="relative cursor-pointer group hover:scale-110 hover:duration-300"
+                >
+                    {/* Main Card */}
+                    <div className="flex flex-col items-center p-6 transition duration-200 bg-white dark:bg-gray-900 rounded-lg shadow-lg hover:bg-blue-100">
+                        <Image
+                            src={'/images/devTools/FormBuilder.png'}
+                            width={100}
+                            height={100}
+                            alt="form-builder"
+                        />
+                        <span className="font-medium text-center dark:text-white text-nowrap">
+                            Form Builder
+                        </span>
+                    </div>
 
+                    {/* Hover Popup */}
+                    <div className="absolute top-0 left-0 w-full h-full flex items-center justify-center bg-opacity-70 text-[10px] opacity-0 font-normal group-hover:opacity-100 group-hover:top-[-95px] transition-all duration-200">
+                        <span className="relative z-10 px-2 py-1 text-white rounded bg-slate-800">
+                            Tailwind Form Builder
+                            <span className="absolute inset-x-0 flex justify-center -bottom-3 -z-0">
+                                <FaCaretDown className="w-6 h-6 text-slate-800" />
+                            </span>
+                        </span>
+                    </div>
+                </Link>
 
             </div>
         </div>

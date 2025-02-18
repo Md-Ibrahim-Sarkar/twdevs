@@ -8,6 +8,8 @@ import NewsLetter from '@/components/newsLetter/NewsLetter';
 import AppProviders from '@/context/provider/AppProviders';
 import { ToastContainer } from 'react-toastify';
 import { Providers } from './ReduxToolkit/provider/provider';
+import { Toaster } from 'react-hot-toast';
+
 export const metadata = {
   title: 'Code Base UI',
   description:
@@ -43,6 +45,7 @@ export default function RootLayout({ children }) {
           </Providers>
         </ThemeProvider>
         <ToastContainer />
+        <Toaster position="top-center" />
       </body>
     </html>
   );
